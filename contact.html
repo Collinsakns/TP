@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nous contacter</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Restauration rapide et fast food">
+        <meta name="keyswords" content="Rapide, restauration, fast, food">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Acceuils">Acceuils</a> </li>
+                <li><a href="menu.html" title="Menu">Menu</a> </li>
+                <li><a href="contact.html" title="Contact">Contact</a> </li>
+            </ul>
+        </nav>
+        <h1>CONTACT</h1> 
+        <form action="contact.html">
+            <fieldset>
+                <legend> Nous contacter</legend>
+                <div>
+                   <label for="emailinput">Votre Email</label>
+                   <input type="text" name="email" id="emailinput" required >
+                </div>
+                <div>
+                    <label for="fileinput">Pièces jointes</label>
+                    <input type="file" name="email" id="fileinput" >
+                 </div>
+
+                <div>
+                    <label for="nameinput">Votre nom</label>
+                    <input type="text" name="name" id="nameinput"> 
+                    <label for="nameinput">Votre prénom</label>
+                    <input type="text" name="name" id="nameinput"> 
+                 </div>      
+                   
+                 <div>
+                   <label id="sexe">Sexe</label>   
+                   <select name="sexe" id="sexe">
+                      <option value="masculin">Masculin</option>
+                      <option value="feminin">Féminin</option>
+                    </select>  
+                 </div> 
+                 <div>
+                    <label for="message">Votre messages</label>
+                    <textarea name="7" id="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+                 </div>
+                 <div>
+                    <label><input type="checkbox" name="cgu">J'accepte les conditions</label>
+                 </div>
+                 <input type="submit" value="Envoyez mon mail" >
+            </fieldset>      
+
+        </form>
+    </body> 
+</html> 
